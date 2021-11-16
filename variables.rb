@@ -14,6 +14,5 @@ quotient = num_3 / num_8
 
 favorite_films = ['Shawshank Redemption', 'Ratatouillie', 'Phantom Thread']
 
-favorite_films.shift # or alternatively favorite_films.delete_at(0)
-
-puts animal.length
+favorite_films.delete('Shawshank Redemption')
+puts favorite_films # Only Ratatouillie and Phantom Thread now 
